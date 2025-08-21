@@ -50,31 +50,17 @@ footer{
     padding: 10px;
 }
 @media (max-width: 768px) {
-  nav ul {
-    display: none; 
-    flex-direction: column;
-    background: rgb(2, 88, 60);
-    padding: 20px;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    text-align: center;
-  }
+form{
+        padding: 20px;
+    }
+label{
+        font-size: 14px;
+    }
+input{
+        font-size: 14px;
+    }
 
-  nav ul.show {
-    display: flex; 
-  }
+    
+}
 
-  .menu-toggle {
-    display: block; 
-  }
-
-  .card {
-    width: 95%; 
-  }
-
-  form {
-    width: 95%;
-  }
 }
