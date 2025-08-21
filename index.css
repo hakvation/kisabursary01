@@ -1,0 +1,148 @@
+body{
+    padding: 0%;
+    margin:0%;
+}
+header{
+    background-color: rgb(2, 88, 60);
+    text-align: center;
+    color: white;
+    
+}
+header h1{
+    padding-bottom: 1%;
+    margin: 0%;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+nav ul a{
+    margin: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: #ccc;
+}
+main{
+    padding: 20px;
+}
+section{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    
+}
+.Empower{
+    background-color: rgb(189, 235, 189);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Empower p{
+    color: black;
+    font-size: 1.5rem ;
+}
+.Empower h2{
+    color: rgb(4, 136, 92);
+    font-size: 2.5rem;
+}
+.document{
+    text-align: center;
+    padding: 50px, 20px;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.card{
+    flex: 1px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    text-align: left;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(1, 73, 1);
+    border-width: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.document h3{
+    color: rgb(4, 136, 92);
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: #f9f9f9;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button a{
+    margin: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+button a:hover{
+    color: blanchedalmond;
+}
+footer{
+    text-align: center;
+    background-color: rgb(2, 88, 60);
+    color: white;
+    padding: 15px;
+}
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul a {
+        margin: 10px 0;
+    }
+
+    .document {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
+
+    .Empower h2 {
+        font-size: 1.5rem;
+    }
+    .Empower p {
+        font-size: 1rem;
+    }
+}
